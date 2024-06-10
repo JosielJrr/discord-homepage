@@ -1,0 +1,311 @@
+@import url(../css/reset.css);
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+}
+
+header {
+    flex: 1 0 auto;
+    width: 100%;
+    height: 505px;
+    background-image: url('../images/Header Background.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    width: 90%;
+    max-width: 500px;
+    height: 366px;
+    margin: auto;
+    padding: 0px 24px 0px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.banner-content h1 {
+    font-family: Luckiest Guy;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+    white-space: pre-line;
+}
+
+.banner-content p {
+    font-family: Open Sans;
+    font-size: 1rem;
+    line-height: 21.79px;
+    color: #FFFFFF;
+}
+
+.banner-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+button {
+    width: 90%;
+    max-width: 500px;
+    height: 52px;
+    margin: auto;
+    border-radius: 28px;
+    border-style: none;
+    font-family: Open Sans;
+    font-size: 1rem;
+    line-height: 21.79px;
+}
+
+#download {
+    background: #FFFFFF;
+}
+
+#browser {
+    color: #FFFFFF;
+    background: #23272A;
+}
+
+/*  -------- Conteúdo Principal  --------  */
+main {
+    width: 100%;
+    flex: 1;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 24px 40px 24px;
+    gap: 27px;
+    align-items: center;
+}
+
+section img {
+    width: 379px;
+    height: 252px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.section h1 {
+    font-family: Open Sans;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 32.68px;
+    white-space: pre-line;
+    color: #23272A;
+}
+
+.section p {
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 21.79px;
+    color: #23272A;
+}
+
+#invitation-space {
+    height: 573px;
+}
+
+#easy-meet {
+    background: #F6F6F6;
+    height: 507px;
+}
+
+#community-tools {
+    height: 507px;
+}
+
+#reliable-connection {
+    height: 590px;
+    background: #F6F6F6;
+    color: #23272A;
+}
+
+#reliable-connection h1 {
+    font-family: Luckiest Guy;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#reliable-connection p {
+    font-family: Open Sans;
+    font-size: 1rem;
+    line-height: 21.79px;
+    white-space: pre-line;
+}
+
+footer {
+    flex: 1 0 auto;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    background: #23272A;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    body {
+        width: 100%;
+        max-width: 1400px;
+    }
+
+    header {
+        height: 459px;
+        background-image: url(../images/Header\ Background-2.png);
+        background-size: cover;
+    }
+
+    .banner-content {
+        width: 757px;
+        height: 270px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .banner-content h1 {
+        font-size: 3.5rem;
+        line-height: 56px;
+        text-align: center;
+    }
+
+    .banner-content p {
+        text-align: center;
+    }
+
+    .banner-buttons {
+        flex-direction: row;
+    }
+
+    button {
+        width: 502px;
+        height: 44px;
+    }
+
+    #download {
+        width: 205px;
+    }
+
+    #browser {
+        width: 281px;
+    }
+
+    /*  -------- Conteúdo Principal  --------  */
+
+    main {
+        display: grid;
+        grid-template:
+            "section1" auto
+            "section2" auto
+            "section3" auto
+            "section4" auto / 1fr
+    }
+
+    section {
+        flex-direction: row;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    section img {
+        width: 607px;
+        height: 394px;
+    }
+
+    section #invitation-space {
+        grid-area: section1;
+    }
+
+    #invitation-space {
+        height: auto;
+    }
+
+    .section h1 {
+        font-size: 2.5rem;
+        line-height: 54.47px;
+    }
+
+    .section-text-invite {
+        width: 348px;
+        height: 374px;
+    }
+
+    /* ----------------------------------------------------- */
+    section #easy-meet {
+        grid-area: section2;
+    }
+
+    #easy-meet {
+        height: auto;
+    }
+
+    #easy-meet picture {
+        order: 1;
+    }
+
+    .section-text-meet {
+        width: 351px;
+        height: 212px;
+    }
+
+    /* ----------------------------------------------------- */
+    section #community-tools {
+        grid-area: section3;
+    }
+
+    #community-tools {
+        height: auto;
+    }
+
+    .section-text-community {
+        width: 351px;
+        height: 234px;
+    }
+
+    /* ----------------------------------------------------- */
+    section #reliable-connection {
+        grid-area: section4;
+    }
+
+    #reliable-connection {
+        height: auto;
+        flex-direction: column;
+    }
+
+    #reliable-connection h1 {
+        width: 608px;
+        height: 80px;
+        font-size: 2.5rem;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    #reliable-connection p {
+        width: 802px;
+        height: 44px;
+        text-align: center;
+    }
+
+    footer {
+        height: 134px;
+    }
+}

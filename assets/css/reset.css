@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Luckiest Guy;
+    src: url('../fonts/LuckiestGuy-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
