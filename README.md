@@ -14,9 +14,8 @@ Este é um projeto de página inicial estática para o Discord, destacando os pr
 ## Instalação
 1. Clone o repositório:
    ```brash
-   git clone https://github.com/JosielJrr/layout-responsivo-discord.git
-
-2. Abra o arquivo index.html no seu navegador.
+   git clone https://github.com/JosielJrr/discord-homepage.git
+2. Abra o arquivo `index.html` no seu navegador.
 
 ## Funcionalidades
 - Layout responsivo para diferentes tamanhos de tela.
