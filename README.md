@@ -1,8 +1,8 @@
 # Discord - Página Inicial
 
-<p align="center">
+<div align="center">
   <img src="assets/images/Group-800w.png" alt="Logo do Discord">
-</p>
+</div>
 
 ## Descrição
 Este é um projeto de página inicial estática para o Discord, destacando os principais recursos e funcionalidades da plataforma de comunicação.
