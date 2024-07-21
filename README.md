@@ -24,4 +24,4 @@ Este é um projeto de página inicial estática para o Discord, destacando os pr
 - Integração de imagens responsivas para melhor desempenho em diferentes dispositivos.
 
 ## Notas Adicionais
-Esse projeto foi densenvolvido na Formação CSS Web Developer da Digital Innovation One.
+Esse projeto foi desenvolvido na Formação CSS Web Developer da Digital Innovation One.
