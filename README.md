@@ -19,7 +19,7 @@ Página inicial estática para o Discord, destacando os principais recursos e fu
 2. Abra o arquivo `index.html` no seu navegador.
 
 ## ✨ Funcionalidades
-- Layout responsivo para diferentes tamanhos de tela.
+- Layout responsivo para dispositivos móveis.
 - Seções que destacam os benefícios do Discord, como convites controlados, facilidade de encontrar amigos e ferramentas de moderação.
 - Integração de imagens responsivas para melhor desempenho em diferentes dispositivos.
 
